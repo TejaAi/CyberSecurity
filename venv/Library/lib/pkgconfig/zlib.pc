@@ -1,0 +1,13 @@
+prefix=D:/CyberSecurity/venv/Library
+exec_prefix=D:/CyberSecurity/venv/Library
+libdir=D:/CyberSecurity/venv/Library/lib
+sharedlibdir=D:/CyberSecurity/venv/Library/lib
+includedir=D:/CyberSecurity/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
